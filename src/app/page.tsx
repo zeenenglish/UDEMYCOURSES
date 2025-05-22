@@ -1,10 +1,10 @@
-import Content from "@/components/Content";
-import Image from "next/image";
+import TableContents from "@/components/TableContents";
+
 
 export default function Home() {
   return (
-    <div>
-      <Content />
+    <div className={'w-[100%] flex  justify-center'}>
+      <TableContents />
     </div>
   );
 }

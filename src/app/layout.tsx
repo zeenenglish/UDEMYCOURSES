@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"w-full min-w-[1349px]"}>
+      <body>
         {children}
       </body>
     </html>
